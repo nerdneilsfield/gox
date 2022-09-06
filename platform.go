@@ -57,7 +57,7 @@ func addDrop(base []Platform, add []Platform, drop []Platform) []Platform {
 
 var (
 	Platforms_1_0 = []Platform{
-		{"darwin", "386", true},
+		// {"darwin", "386", true},
 		{"darwin", "amd64", true},
 		{"linux", "386", true},
 		{"linux", "amd64", true},
@@ -162,7 +162,7 @@ var (
 		{"android", "arm64", false},
 	}, []Platform{
 		// drop i386 macos
-		{"darwin", "386", false},
+		// {"darwin", "386", false},
 	})
 
 	Platforms_1_16 = addDrop(Platforms_1_15, []Platform{
